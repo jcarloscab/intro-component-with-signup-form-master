@@ -1,0 +1,125 @@
+.sign-up {
+  width: 80%;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 50%;
+  
+  &__message {
+    width: 50%;
+  }
+  
+  &__title {
+    width: 80%;
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+
+  &__subtitle {
+    margin-top: 25px;
+    padding-right: 50px;
+  }
+  
+  &__datas {
+    width: 45%;
+  }
+  
+  &__try-it {
+    background-color: $blue;
+    color: $grayish-blue;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: $shadow;
+  }
+  
+  &__form {
+    box-shadow: $shadow;
+    background-color: #fff;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 30px;
+  }
+
+  &__input-container {
+    border: 1px solid $grayish-blue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    padding: 0 15px 0 30px;
+
+    &--focus {
+      border: 2px solid $blue;
+    }
+    
+    &--error {
+      border: 2px solid $red;
+
+      .sign-up__input {
+        color: $red;
+        font-weight: 600;
+      }
+    }
+  }
+
+  &__input {
+    height: 100%;
+    width: 90%;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: $blue;
+  }
+
+  &__error-image {
+    visibility: hidden;
+    
+    &--visible {
+      visibility: visible;
+    }
+  }
+
+  &__error {
+    color: $red;
+    text-align: right;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+    height: 0.8rem ;
+    margin-right: 5px;
+  }
+
+  &__submit {
+    background-color: $green;
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid $dark-green;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+
+    &:hover {
+      background-color: $light-green;
+      border-bottom: 3px solid $green;
+      cursor: pointer;
+    }
+  }
+
+  &__warning {
+    color: $grayish-blue;
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  &__link {
+    color: $red;
+    text-decoration: none;
+    font-weight: 600;
+  }
+}
