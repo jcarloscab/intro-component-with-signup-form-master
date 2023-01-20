@@ -4,25 +4,51 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-basis: 50%;
-  
+
+  @media screen and (max-width: 375px) {
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+  }
+
   &__message {
     width: 50%;
+    
+    @media screen and (max-width: 375px) {
+      width: 90%;
+      margin-top: 80px;
+    }
   }
   
   &__title {
-    width: 80%;
+    width: 100%;
     font-size: 3rem;
     line-height: 4rem;
+    
+    @media screen and (max-width: 375px) {
+      text-align: center;
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
   }
 
   &__subtitle {
     margin-top: 25px;
     padding-right: 50px;
+    
+    @media screen and (max-width: 375px) {
+      text-align: center;
+      padding: 0 5px;
+    }
   }
   
   &__datas {
     width: 45%;
+
+    @media screen and (max-width: 375px) {
+      width: 90%;
+      margin-top: 60px;
+    }
   }
   
   &__try-it {
@@ -32,6 +58,10 @@
     text-align: center;
     border-radius: 8px;
     box-shadow: $shadow;
+
+    @media screen and (max-width: 375px) {
+      padding: 20px 40px;
+    }
   }
   
   &__form {

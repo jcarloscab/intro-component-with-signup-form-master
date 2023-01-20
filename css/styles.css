@@ -20,6 +20,11 @@ body {
   background: url(/images/bg-intro-desktop.png) hsl(0deg, 100%, 74%);
   color: white;
 }
+@media screen and (max-width: 375px) {
+  body {
+    height: auto;
+  }
+}
 
 .bold {
   color: #fff;
@@ -32,22 +37,53 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-basis: 50%;
+}
+@media screen and (max-width: 375px) {
+  .sign-up {
+    width: 95%;
+    height: auto;
+    flex-direction: column;
+  }
 }
 .sign-up__message {
   width: 50%;
 }
+@media screen and (max-width: 375px) {
+  .sign-up__message {
+    width: 90%;
+    margin-top: 80px;
+  }
+}
 .sign-up__title {
-  width: 80%;
+  width: 100%;
   font-size: 3rem;
   line-height: 4rem;
+}
+@media screen and (max-width: 375px) {
+  .sign-up__title {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
 }
 .sign-up__subtitle {
   margin-top: 25px;
   padding-right: 50px;
 }
+@media screen and (max-width: 375px) {
+  .sign-up__subtitle {
+    text-align: center;
+    padding: 0 5px;
+  }
+}
 .sign-up__datas {
   width: 45%;
+}
+@media screen and (max-width: 375px) {
+  .sign-up__datas {
+    width: 90%;
+    margin-top: 60px;
+  }
 }
 .sign-up__try-it {
   background-color: hsl(248deg, 32%, 49%);
@@ -56,6 +92,11 @@ body {
   text-align: center;
   border-radius: 8px;
   box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.15);
+}
+@media screen and (max-width: 375px) {
+  .sign-up__try-it {
+    padding: 20px 40px;
+  }
 }
 .sign-up__form {
   box-shadow: 0px 6px 0px rgba(0, 0, 0, 0.15);
