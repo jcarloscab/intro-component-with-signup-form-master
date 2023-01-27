@@ -21,9 +21,9 @@ Partiendo de los diseños e imágenes entregados, los Usuarios deben:
 - ver de forma óptima la página independientemente del dispositivo en que lo hagan.
 - Ver los estados hover de todos los elementos interactivos de la página.
 - Recibir un mensaje de error como en el diseño cuando el formulario se envíe si:
-  - Algún campo "input" está vacío. El mensaje de erro debe ser _"[Field Name] cannot be empty"_
+  - Algún campo "input" está vacío. El mensaje de error debe ser _"[Field Name] cannot be empty"_
   - El formato de la dirección de email no es el correcto (la estructura debería ser algo así:
-    `name@host.tld`). El mensaje de erro debe decir _"Looks like this is not an email"_
+    `name@host.tld`). El mensaje de error debe decir _"Looks like this is not an email"_
 
 ### Captura de pantalla
 
