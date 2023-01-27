@@ -31,8 +31,8 @@ Partiendo de los diseños e imágenes entregados, los Usuarios deben:
 
 ### Links
 
-- Solución URL: [Solución]()
-- Live Site URL: [Site]()
+- Solución URL: [Solución](https://www.frontendmentor.io/solutions/intro-component-with-signup-form-master-with-validation-in-js-F5SgCqp7on)
+- Live Site URL: [Site]( https://jcarloscab.github.io/intro-component-with-signup-form-master/)
 
 ## Mi Proceso
 
